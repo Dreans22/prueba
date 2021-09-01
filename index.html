@@ -26,9 +26,18 @@
     </nav>
     <main>
         <h1>Hola que tal</h1>
+        <form action="llenar datos">
         <label for="nombre">nombre</label>
-        <input type="text" name="txtnombre">
-        <br>
+        <input type="text" name="txtnombre" required >
+        <br/>
+        <label for="email">correo</label>
+        <input type="email" name="txtemail" size="21">
+        <br/>
+        <label for="telefono"> Telefono</label>
+        <input type="number" name="txtTelefono" maxlength="10" >
+        
+        <input type="submit"  value="guardar datos"><br/>
+        </form>
         <a href="https://www.youtube.com/">youtube</a>
     </main>
     <footer>
