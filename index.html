@@ -28,16 +28,43 @@
         <h1>Hola que tal</h1>
         <form action="llenar datos">
         <label for="nombre">nombre</label>
-        <input type="text" name="txtnombre" required >
+        <input type="text" name="txtnombre" id="nombre" required placeholder="ingrese su nombre" >
         <br/>
         <label for="email">correo</label>
-        <input type="email" name="txtemail" size="21">
-        <br/>
+        <input type="email" name="txtemail" id="email" size="22"> <br/>
         <label for="telefono"> Telefono</label>
-        <input type="number" name="txtTelefono" maxlength="10" >
-        
-        <input type="submit"  value="guardar datos"><br/>
-        </form>
+        <input type="number" name="txtTelefono" ><br/>
+        <label for="Seleccionar plataforma">Seleccionar plataforma</label>
+        <select name="seleccionar plataforma" >
+            <option value=1>Netflix</option>
+            <option value=2>Disney +</option>
+            <option value=3>HBO MAX</option>
+        </select>
+        <input type="submit"  value="guardar datos">
+        <button>enviar</button>
+        </form><br/>
+        <center>
+        <h3>ejemplo tabla</h3><br/>
+        <table border=2>
+            <tr>
+                
+                <th>hola</th>
+                <th>que</th>
+                <th>tal</th>
+            </tr>
+            <tr>
+                <td>Sistemas</td>
+                <td>de</td>
+                <td>informacion</td>
+            </tr>
+            <tr>
+                <td>bases</td>
+                <td>de</td>
+                <td>datos</td>
+            </tr>
+        </table>
+        </center>   
+        <br />
         <a href="https://www.youtube.com/">youtube</a>
     </main>
     <footer>
