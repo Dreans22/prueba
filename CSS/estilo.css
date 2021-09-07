@@ -40,3 +40,27 @@ p{
     border-color: midnightblue;
     margin-left: 85%;
 }
+
+.titulo-icono{
+    display: flex; /*coloque las cajas que estan dentro del div en la misma linea */
+}
+
+.caja-titulo{
+    width: 80%;
+    height: 40px;
+    background-color: navy;
+
+}
+
+.caja-icono{
+    width: 20%;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    
+}
+
+.diseñoicono1{
+    font-size: 40px;
+    color: white;
+}
