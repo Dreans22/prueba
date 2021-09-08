@@ -42,6 +42,16 @@ p{
      margin: 1.8% auto;
  }
 
+ .diseño_tabla{
+     width: 45%;
+     border: 1px solid navy;
+     border-collapse: collapse;
+ }
+
+ th, td{
+     border: 1px solid navy;
+ }
+
  .diseño_caja{
      color: black;
      
@@ -116,4 +126,68 @@ p{
     margin: 0 10px 0 0;
     padding: 10px 0 0 10px;
     
+}
+@media(max-width: 640px){
+    .menu ul{
+        display: block;
+        list-style: none;
+        justify-content: center;
+        
+    }
+
+    .menu li a{
+        display: block;
+        background-color: yellow;
+        color: blue;
+        width: 90%;
+        height: 30px;
+        text-decoration: darkblue;
+        text-align: center;
+        margin-top: 3%;
+        
+    }
+
+    .formulario{
+        width: 90%;
+        margin: 0px auto;
+    }
+   
+    .formulario_label{
+        width: 45%;
+        margin: 1px
+    }
+   
+    .formulario_input{
+        width: 50%;
+    }
+   
+    .formulario_boton{
+        width: 35%;
+        
+        margin: 3% auto;
+    }
+
+    .diseño_tabla{
+        width: 75%;
+        border: 1px solid navy;
+        border-collapse: collapse;
+    }
+
+    .diseño_caja{
+        color: black;
+        
+        width: 90%;
+        display: block;
+    }
+
+    .ver_mas{
+        color: white;
+        background-color:midnightblue;
+        border-color: midnightblue;
+        margin-left: 78%;
+    }
+
+    .menu img {
+        width: 85%;
+    }
 }
