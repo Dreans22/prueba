@@ -15,6 +15,15 @@ p{
      color: #Fb1e1e;
  }
 
+ .formulario{
+     width: 50%;
+     margin: 20px auto;
+ }
+
+ .formulario_label{
+     display: inline-block;
+     width: 30%;
+ }
 
  .diseño_caja{
      color: black;

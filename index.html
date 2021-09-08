@@ -31,25 +31,27 @@
         </ul>
     </nav>
     <main>
-        <h1>Hola que tal</h1>
-        <form action="llenar datos">
-        <label for="nombre">nombre</label>
-        <input type="text" name="txtnombre" id="nombre" required placeholder="ingrese su nombre" >
-        <br/>
-        <label for="email">correo</label>
+        
+        <form action="llenar datos" class="formulario">
+            <h1>Hola que tal</h1>
+        <label class="formulario_label" for="nombre">nombre</label>
+        <input type="text" name="txtnombre" id="nombre" required placeholder="ingrese su nombre" ><br/>
+        <label class="formulario_label" for="email">correo</label>
         <input type="email" name="txtemail" id="email" size="22"> <br/>
-        <label for="telefono"> Telefono</label>
+        <label class="formulario_label" for="telefono"> Telefono</label>
         <input type="number" name="txtTelefono" ><br/>
-        <label for="Seleccionar plataforma">Seleccionar plataforma</label>
+        <label class="formulario_label" for="Seleccionar plataforma">Seleccionar plataforma</label>
         <select name="seleccionar plataforma" >
             <option value=1>Netflix</option>
             <option value=2>Disney +</option>
             <option value=3>HBO MAX</option>
         </select><br/>
-        <label for="fecha">fecha</label>
-        <input type="date" name="fecha">
-        <input type="submit"  value="guardar datos">
-        <button>enviar</button>
+        <label class="formulario_label" for="fecha">fecha</label>
+        <input type="date" name="fecha"><br/>
+        <!--<label for="observaciones" name="observaciones">observaciones</label>
+        <textarea name="txtobservaciones" id="observaciones" cols="40" rows="10"></textarea>-->
+        <input class="formulario_label" type="submit"  value="guardar datos">
+        <button class="formulario_label" >enviar</button>
         </form><br/>
         <p>prueba de estilo</p><br />
         <center>
