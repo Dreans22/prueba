@@ -11,27 +11,27 @@ p{
     
 }
 
- #creditos{
+#creditos{
      color: #Fb1e1e;
  }
 
- .formulario{
+.formulario{
      width: 60%;
      margin: 20px auto;
- }
+}
 
- .formulario_label{
+.formulario_label{
      display: inline-block;
      width: 30%;
- }
+}
 
- .formulario_input{
+.formulario_input{
      display: inline-block;
      width: 40%;
      margin: 1.8% 0 0 0 ;
- }
+}
 
- .formulario_boton{
+.formulario_boton{
      width: 25%;
      height: 30px;
      padding: 5px;
@@ -40,13 +40,13 @@ p{
      border-color:navy;
      border-radius: 15px;
      margin: 1.8% auto;
- }
+}
 
- .diseño_tabla{
+.diseño_tabla{
      width: 45%;
      border: 1px solid navy;
      border-collapse: collapse;
- }
+}
 
  th, td{
      border: 1px solid navy;
@@ -127,6 +127,8 @@ p{
     padding: 10px 0 0 10px;
     
 }
+
+/* vista celular*/
 @media(max-width: 640px){
     .menu ul{
         display: block;
@@ -189,5 +191,72 @@ p{
 
     .menu img {
         width: 85%;
+    }
+}
+/*configuracion para tablet*/
+@media(min-width: 641px) and (max-width:1280px){
+    .menu ul{
+        display: block;
+        list-style: none;
+        justify-content: center;
+
+        
+    }
+
+    .menu li a{
+        display: block;
+        background-color: yellow;
+        color: blue;
+        width: 90%;
+        height: 30px;
+        text-decoration: darkblue;
+        text-align: center;
+        margin-top: 3%;
+        
+    }
+
+    .formulario{
+        width: 95%;
+        margin: 0px auto;
+    }
+   
+    .formulario_label{
+        width: 45%;
+        margin: 1px
+    }
+   
+    .formulario_input{
+        width: 50%;
+    }
+   
+    .formulario_boton{
+        width: 35%;
+        
+        margin: 3% auto;
+    }
+
+    .diseño_tabla{
+        width: 85%;
+        border: 1px solid navy;
+        border-collapse: collapse;
+    }
+
+    .diseño_caja{
+        color: black;
+        
+        width: 90%;
+        display: block;
+        margin-left: 3%;
+    }
+
+    .ver_mas{
+        color: white;
+        background-color:midnightblue;
+        border-color: midnightblue;
+        margin-left: 78%;
+    }
+
+    .menu img {
+        width: 90%;
     }
 }
